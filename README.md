@@ -1,15 +1,5 @@
-APP
+This is source code for a blog post available at:
 
-|
-|
-|
-v
+[https://larry-price.com/blog/2015/02/26/a-quick-guide-to-using-docker-compose-previously-fig/](https://larry-price.com/blog/2015/02/26/a-quick-guide-to-using-docker-compose-previously-fig/)
 
-DB
-
-|
-|
-|
-v
-
-DBVOLUME
+Happy composing!
