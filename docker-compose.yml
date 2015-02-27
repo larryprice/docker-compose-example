@@ -1,0 +1,13 @@
+advanced:
+  build: ./database-golang-app
+  working_dir: /go/src/database-golang-app
+  command: go run main.go
+  volumes:
+    - ./database-golang-app:/go/src/database-golang-app
+  links:
+    - database
+  environment:
+    - DB_NAME=advanced-golang-db
+database:
+  image: mongo:3.0
+  command: mongod --smallfiles --quiet --logpath=/dev/null

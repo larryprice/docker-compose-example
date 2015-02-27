@@ -1,4 +1,4 @@
-app:
+simple:
   image: golang:1.4
   working_dir: /go/src/simple-golang-app
   command: go run main.go
